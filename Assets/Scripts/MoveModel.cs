@@ -5,10 +5,6 @@ using UnityEngine;
 public class MoveModel : MonoBehaviour
 {
     public GameObject ARObject;
-    //public GameObject objectRotate;
-
-    //public float rotateSpeed = 50f;
-    //bool rotateStatus = false;
 
     [SerializeField] private Camera aRCamera;
     private bool isARObjectSelected;
@@ -26,14 +22,6 @@ public class MoveModel : MonoBehaviour
 
     private float rotationTol = 1.5f;
     private float scaleTol = 25.0f;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-
     // Update is called once per frame
     void Update()
     {

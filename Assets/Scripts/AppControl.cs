@@ -9,10 +9,10 @@ public class AppControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //foreach(var UI in Canvas)
-        //{
-        //    UI.SetActive(false);
-        //}
+        foreach (var UI in Canvas)
+        {
+            UI.SetActive(false);
+        }
 
         GeneralUI.SetActive(true);
     }
