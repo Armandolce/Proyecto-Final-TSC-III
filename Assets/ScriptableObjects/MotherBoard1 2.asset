@@ -15,4 +15,4 @@ MonoBehaviour:
   ComponentName: MotherBoard1
   ComponentImage: {fileID: 21300000, guid: e5c19c6c14727e249b7bf57dd256ded0, type: 3}
   ComponentDesc: Modelo 1 de Mother
-  ComponentModel: {fileID: 4423337697347377539, guid: a79183b05d21a554ab75c1f5ed5f9ffd, type: 3}
+  ComponentModel: {fileID: 3936373807017940442, guid: cdffd989d0cf81f4cbaf47cc83262a6c, type: 3}

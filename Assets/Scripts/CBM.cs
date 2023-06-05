@@ -11,6 +11,7 @@ public class CBM : MonoBehaviour
     public string ComponentDesc;
     public Sprite ComponentImage;
     public GameObject ComponentModel;
+    private ARInteractionManager interactionManager;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +23,13 @@ public class CBM : MonoBehaviour
         var button = GetComponent<Button>();
         button.onClick.AddListener(AppManager.instance.ARPosition);
         button.onClick.AddListener(Create3DModel);
+
+        interactionManager = FindObjectOfType<ARInteractionManager>();
     }
 
     private void Create3DModel()
     {
-        Instantiate(ComponentModel);
+       interactionManager.Item3DModel = Instantiate(ComponentModel);
     }
 
 }
