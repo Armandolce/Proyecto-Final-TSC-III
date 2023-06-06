@@ -76,7 +76,7 @@ public class MoveModel : MonoBehaviour
 
                     if (Mathf.Abs(angle) > rotationTol)
                     {
-                        ARObject.transform.rotation = Quaternion.Euler(0, ARObject.transform.rotation.eulerAngles.y - Mathf.Sign(angle) * speedMovement, 0);
+                        ARObject.transform.rotation = Quaternion.Euler(0, ARObject.transform.rotation.eulerAngles.y - Mathf.Sign(angle) * speedRotation, 0);
 
                     }
 

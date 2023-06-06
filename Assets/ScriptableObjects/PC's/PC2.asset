@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10a83c07757ae3f42914a27d938f4978, type: 3}
-  m_Name: PC3
+  m_Name: PC2
   m_EditorClassIdentifier: 
-  ComponentName: PC 3
-  ComponentImage: {fileID: 21300000, guid: e7f63fccfe0da6e4b84bcbf9188422bd, type: 3}
-  ComponentDesc: PC gamer 3
-  ComponentModel: {fileID: 8350482619898448193, guid: 8144dae5388fb5e42bc23d9700732026, type: 3}
+  ComponentName: Low Poly PC
+  ComponentImage: {fileID: 21300000, guid: adc5931170ff92249bf4f2578cbed2eb, type: 3}
+  ComponentDesc: Experience minimalism!
+  ComponentModel: {fileID: 1229717002576808765, guid: 91415579144709e478157ede26bb8a9c, type: 3}

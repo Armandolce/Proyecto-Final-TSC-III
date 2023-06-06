@@ -9,4 +9,12 @@ public class Component : ScriptableObject
     public Sprite ComponentImage;
     public string ComponentDesc;
     public GameObject ComponentModel;
+
+    public void printComponentData()
+    {
+        Debug.Log(ComponentName);
+        Debug.Log(ComponentDesc);
+    }
+
 }
+

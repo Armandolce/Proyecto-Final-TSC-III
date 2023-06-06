@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10a83c07757ae3f42914a27d938f4978, type: 3}
-  m_Name: PC1
+  m_Name: Gskill Trident Z
   m_EditorClassIdentifier: 
-  ComponentName: PC 1
-  ComponentImage: {fileID: 21300000, guid: e7f63fccfe0da6e4b84bcbf9188422bd, type: 3}
-  ComponentDesc: PC gamer 1
-  ComponentModel: {fileID: 934513723008329100, guid: 0cb8ed6ebfbb09a40b8c12132c40a3c2, type: 3}
+  ComponentName: Gskill Trident Z
+  ComponentImage: {fileID: 0}
+  ComponentDesc: Memoria RAM 1
+  ComponentModel: {fileID: 9136402069963692556, guid: 262925b5d2eeb4649afa805bc576ef7b, type: 3}

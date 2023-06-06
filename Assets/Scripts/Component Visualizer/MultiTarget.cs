@@ -32,6 +32,7 @@ public class MultiTarget : MonoBehaviour
         GameObject newModel = transform.GetChild(newIndex).gameObject;
         newModel.SetActive(true);
 
+
         indexCurrentModel = newModel.transform.GetSiblingIndex();
     }
 }
