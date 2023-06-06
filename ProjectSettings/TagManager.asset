@@ -8,6 +8,7 @@ TagManager:
   - MaterialText
   - MaterialRadioButton
   - ARObject
+  - Component
   layers:
   - Default
   - TransparentFX
