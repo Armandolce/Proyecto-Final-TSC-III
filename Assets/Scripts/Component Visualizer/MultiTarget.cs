@@ -5,15 +5,23 @@ using UnityEngine;
 public class MultiTarget : MonoBehaviour
 {
     [SerializeField] private GameObject startModel;
+    [SerializeField] private Component[] components;
     private int modelsCount;
     private int indexCurrentModel;
+
     // Start is called before the first frame update
     void Start()
     {
+        //Se cuenta el numero de modelos dentro de un imageTarget
         modelsCount = transform.childCount;
         indexCurrentModel = startModel.transform.GetSiblingIndex();
     }
 
+
+    /*
+     * Funcion encargada de realizar el cambio de modelos dentro de un imageTarget
+     * @param index decide si vamos hacia el anterior modelo o el siguiente. 
+     */
     public void ChangeARModel(int index)
     {
         transform.GetChild(indexCurrentModel).gameObject.SetActive(false);
@@ -34,5 +42,14 @@ public class MultiTarget : MonoBehaviour
 
 
         indexCurrentModel = newModel.transform.GetSiblingIndex();
+    }
+
+    /*
+     * Función encargada de brindar el ScriptableObject activo en el imageTarget
+     * @return Un ScriptableObject de tipo componente
+     */
+    public Component returnActualComponent()
+    {
+        return components[indexCurrentModel];
     }
 }

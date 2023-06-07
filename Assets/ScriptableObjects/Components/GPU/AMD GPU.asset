@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a83c07757ae3f42914a27d938f4978, type: 3}
+  m_Name: AMD GPU
+  m_EditorClassIdentifier: 
+  ComponentName: Radeon RX 6500
+  ComponentImage: {fileID: 21300000, guid: 3abcdc4e74561aa4f9cc0b12a2edda85, type: 3}
+  ComponentDesc: AMD Graphics Card
+  ComponentModel: {fileID: 3484322483711540398, guid: ee351f85dc71c7f4f8091bba88d2c8c9, type: 3}

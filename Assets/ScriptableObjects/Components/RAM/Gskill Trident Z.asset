@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a83c07757ae3f42914a27d938f4978, type: 3}
+  m_Name: Gskill Trident Z
+  m_EditorClassIdentifier: 
+  ComponentName: Gskill Trident Z
+  ComponentImage: {fileID: 21300000, guid: d7d386e5d01a4ea4eac3b4794964deeb, type: 3}
+  ComponentDesc: Memoria RAM 1
+  ComponentModel: {fileID: 9136402069963692556, guid: 262925b5d2eeb4649afa805bc576ef7b, type: 3}
