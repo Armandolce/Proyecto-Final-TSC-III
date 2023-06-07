@@ -109,7 +109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514586880320248018}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0.54, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 2398634897326100034}
   m_Layer: 0
   m_Name: AMD
-  m_TagString: Untagged
+  m_TagString: Component
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -641,8 +641,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2925103, y: 0.79754317, z: 0.28798896}
-  m_Center: {x: -0.029199928, y: -0.051182866, z: 0.06938133}
+  m_Size: {x: 1.2925103, y: 0.7795805, z: 0.28798896}
+  m_Center: {x: -0.029199958, y: 0.4823138, z: 0.06938133}
 --- !u!1 &4138740097444665407
 GameObject:
   m_ObjectHideFlags: 0

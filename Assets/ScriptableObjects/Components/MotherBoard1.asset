@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10a83c07757ae3f42914a27d938f4978, type: 3}
-  m_Name: MotherBoard1 2
+  m_Name: MotherBoard1
   m_EditorClassIdentifier: 
   ComponentName: MotherBoard1
   ComponentImage: {fileID: 21300000, guid: e5c19c6c14727e249b7bf57dd256ded0, type: 3}

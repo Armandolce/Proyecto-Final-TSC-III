@@ -215,6 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6629102409614930515}
   - component: {fileID: 670936938448660210}
+  - component: {fileID: 7469426330531322255}
   m_Layer: 0
   m_Name: Rizen5-3600
   m_TagString: Untagged
@@ -251,6 +252,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7396841, y: 0.72666854, z: 0.17161386}
   m_Center: {x: -0.0021243892, y: -0.045525473, z: -0.0036880176}
+--- !u!114 &7469426330531322255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2467990657477719601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccd40891d6304143a7fa5cc8a0dd6ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 50
+  rotateStatus: 0
 --- !u!1 &4597809884820482344
 GameObject:
   m_ObjectHideFlags: 0

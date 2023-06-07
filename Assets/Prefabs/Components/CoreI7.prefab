@@ -42,6 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071931755025735303}
   - component: {fileID: 2399008013899903692}
+  - component: {fileID: 6622942111324390083}
   m_Layer: 0
   m_Name: CoreI7
   m_TagString: Untagged
@@ -78,6 +79,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5441391, y: 2.540884, z: 0.43187097}
   m_Center: {x: -0.018544555, y: 0.0023617744, z: -0.04287766}
+--- !u!114 &6622942111324390083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5742574291025625417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccd40891d6304143a7fa5cc8a0dd6ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 50
+  rotateStatus: 0
 --- !u!1 &7435639221411352117
 GameObject:
   m_ObjectHideFlags: 0
