@@ -24,6 +24,7 @@ public class MultiTarget : MonoBehaviour
      */
     public void ChangeARModel(int index)
     {
+        //Obtenemos el modelo actual desplegado y lo ocultamos
         transform.GetChild(indexCurrentModel).gameObject.SetActive(false);
 
         int newIndex = indexCurrentModel + index;
@@ -37,10 +38,12 @@ public class MultiTarget : MonoBehaviour
             newIndex = 0;
         }
 
+        //Obtenemos el nuevo modelo y lo activamos
         GameObject newModel = transform.GetChild(newIndex).gameObject;
         newModel.SetActive(true);
 
 
+        //Actualizamos el indice actual de nuestro sistema
         indexCurrentModel = newModel.transform.GetSiblingIndex();
     }
 
